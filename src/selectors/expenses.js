@@ -1,5 +1,3 @@
-// Get visible expenses, takes in array of expenses, then filters,
-// returns filtered and sorted array
 import moment from 'moment';
 
 // Get visible expenses
@@ -20,4 +18,3 @@ export default (expenses, { text, sortBy, startDate, endDate }) => {
     }
   });
 };
-
